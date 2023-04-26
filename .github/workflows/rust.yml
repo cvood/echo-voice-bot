@@ -68,7 +68,7 @@ jobs:
             sudo apt-get install -qq crossbuild-essential-arm64 crossbuild-essential-armhf
           fi
 
-          sudo apt-get install openssl-dev
+          sudo apt-get install libssl-dev
 
           # some additional configuration for cross-compilation on linux
           cat >>~/.cargo/config <<EOF
